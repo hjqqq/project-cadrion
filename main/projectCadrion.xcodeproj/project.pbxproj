@@ -185,6 +185,7 @@
 		3A54A7D016D375B100D5A91C /* Isgl3dViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54A7CF16D375B100D5A91C /* Isgl3dViewController.m */; };
 		3A54A7D316D375B100D5A91C /* HelloWorldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54A7D216D375B100D5A91C /* HelloWorldView.m */; };
 		3A54A7DC16D37D4000D5A91C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A54A7DB16D37D4000D5A91C /* Default-568h@2x.png */; };
+		3A54A7DF16D380EA00D5A91C /* Basic3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54A7DE16D380EA00D5A91C /* Basic3DView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -543,6 +544,8 @@
 		3A54A7D116D375B100D5A91C /* HelloWorldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldView.h; sourceTree = "<group>"; };
 		3A54A7D216D375B100D5A91C /* HelloWorldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldView.m; sourceTree = "<group>"; };
 		3A54A7DB16D37D4000D5A91C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		3A54A7DD16D380EA00D5A91C /* Basic3DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basic3DView.h; sourceTree = "<group>"; };
+		3A54A7DE16D380EA00D5A91C /* Basic3DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basic3DView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -599,8 +602,7 @@
 				3A54A7CC16D375B100D5A91C /* projectCadrionAppDelegate.mm */,
 				3A54A7CE16D375B100D5A91C /* Isgl3dViewController.h */,
 				3A54A7CF16D375B100D5A91C /* Isgl3dViewController.m */,
-				3A54A7D116D375B100D5A91C /* HelloWorldView.h */,
-				3A54A7D216D375B100D5A91C /* HelloWorldView.m */,
+				3A54A7E016D381B200D5A91C /* 3D Views */,
 				3A54A5AA16D375A500D5A91C /* Resources */,
 				3A54A5C716D375A500D5A91C /* libs */,
 				3A54A76A16D375AC00D5A91C /* external */,
@@ -1218,6 +1220,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3A54A7E016D381B200D5A91C /* 3D Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A54A7D116D375B100D5A91C /* HelloWorldView.h */,
+				3A54A7D216D375B100D5A91C /* HelloWorldView.m */,
+				3A54A7DD16D380EA00D5A91C /* Basic3DView.h */,
+				3A54A7DE16D380EA00D5A91C /* Basic3DView.m */,
+			);
+			name = "3D Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1451,6 +1464,7 @@
 				3A54A7CD16D375B100D5A91C /* projectCadrionAppDelegate.mm in Sources */,
 				3A54A7D016D375B100D5A91C /* Isgl3dViewController.m in Sources */,
 				3A54A7D316D375B100D5A91C /* HelloWorldView.m in Sources */,
+				3A54A7DF16D380EA00D5A91C /* Basic3DView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
