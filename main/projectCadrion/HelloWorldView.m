@@ -45,7 +45,7 @@
 
 - (void) tick:(float)dt {
 	// Rotate the text around the y axis
-	_3dText.rotationY += 2;
+	_3dText.rotationY += 1;
 }
 
 
