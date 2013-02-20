@@ -10,6 +10,7 @@
 #import "projectCadrionAppDelegate.h"
 #import "Isgl3dViewController.h"
 #import "Basic3DView.h"
+#import "Advanced3DView.h"
 #import "Isgl3d.h"
 
 @implementation projectCadrionAppDelegate
@@ -61,7 +62,7 @@
 	[_window makeKeyAndVisible];
 
 	// Creates the view(s) and adds them to the director
-	[[Isgl3dDirector sharedInstance] addView:[Basic3DView view]];
+	[[Isgl3dDirector sharedInstance] addView:[Advanced3DView view]];
 	
 	// Run the director
 	[[Isgl3dDirector sharedInstance] run];

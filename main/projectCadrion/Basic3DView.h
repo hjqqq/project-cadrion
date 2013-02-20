@@ -12,7 +12,14 @@
     
 @private
     // The multi-material cube
-    Isgl3dMultiMaterialCube * _cube;
+//    Isgl3dMultiMaterialCube * _cube;
+    Isgl3dMeshNode *_torusNode;
+    Isgl3dLight *_redLight;
+    Isgl3dLight *_greenLight;
+    Isgl3dLight *_blueLight;
+    
+	// Used to calculate the light positions
+	float _lightAngle;
 }
 
 @end

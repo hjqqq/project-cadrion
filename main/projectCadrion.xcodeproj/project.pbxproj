@@ -186,6 +186,9 @@
 		3A54A7D316D375B100D5A91C /* HelloWorldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54A7D216D375B100D5A91C /* HelloWorldView.m */; };
 		3A54A7DC16D37D4000D5A91C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A54A7DB16D37D4000D5A91C /* Default-568h@2x.png */; };
 		3A54A7DF16D380EA00D5A91C /* Basic3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54A7DE16D380EA00D5A91C /* Basic3DView.m */; };
+		3AAA333A16D463AE004CBEE9 /* Advanced3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA333916D463AE004CBEE9 /* Advanced3DView.m */; };
+		3AAA333C16D46479004CBEE9 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA333B16D46479004CBEE9 /* ball.png */; };
+		3AAA333E16D4648C004CBEE9 /* pitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA333D16D4648C004CBEE9 /* pitch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -546,6 +549,10 @@
 		3A54A7DB16D37D4000D5A91C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		3A54A7DD16D380EA00D5A91C /* Basic3DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basic3DView.h; sourceTree = "<group>"; };
 		3A54A7DE16D380EA00D5A91C /* Basic3DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basic3DView.m; sourceTree = "<group>"; };
+		3AAA333816D463AE004CBEE9 /* Advanced3DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advanced3DView.h; sourceTree = "<group>"; };
+		3AAA333916D463AE004CBEE9 /* Advanced3DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advanced3DView.m; sourceTree = "<group>"; };
+		3AAA333B16D46479004CBEE9 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		3AAA333D16D4648C004CBEE9 /* pitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -614,6 +621,8 @@
 		3A54A5AA16D375A500D5A91C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3AAA333D16D4648C004CBEE9 /* pitch.png */,
+				3AAA333B16D46479004CBEE9 /* ball.png */,
 				3A54A7DB16D37D4000D5A91C /* Default-568h@2x.png */,
 				3A54A5BC16D375A500D5A91C /* Info.plist */,
 				3A54A5BD16D375A500D5A91C /* Default.png */,
@@ -1223,6 +1232,8 @@
 		3A54A7E016D381B200D5A91C /* 3D Views */ = {
 			isa = PBXGroup;
 			children = (
+				3AAA333816D463AE004CBEE9 /* Advanced3DView.h */,
+				3AAA333916D463AE004CBEE9 /* Advanced3DView.m */,
 				3A54A7D116D375B100D5A91C /* HelloWorldView.h */,
 				3A54A7D216D375B100D5A91C /* HelloWorldView.m */,
 				3A54A7DD16D380EA00D5A91C /* Basic3DView.h */,
@@ -1295,6 +1306,8 @@
 				3A54A5C416D375A500D5A91C /* LICENSE.isgl3d in Resources */,
 				3A54A5C616D375A500D5A91C /* LICENSE.IMGTEC in Resources */,
 				3A54A7DC16D37D4000D5A91C /* Default-568h@2x.png in Resources */,
+				3AAA333C16D46479004CBEE9 /* ball.png in Resources */,
+				3AAA333E16D4648C004CBEE9 /* pitch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1465,6 +1478,7 @@
 				3A54A7D016D375B100D5A91C /* Isgl3dViewController.m in Sources */,
 				3A54A7D316D375B100D5A91C /* HelloWorldView.m in Sources */,
 				3A54A7DF16D380EA00D5A91C /* Basic3DView.m in Sources */,
+				3AAA333A16D463AE004CBEE9 /* Advanced3DView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
